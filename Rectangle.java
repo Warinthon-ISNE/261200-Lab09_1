@@ -1,5 +1,8 @@
 package oop.ocp;
 
+// extends of Shape and has it own method with formula width * height
+
+
 public class Rectangle extends Shape{
     private double width, height;
 

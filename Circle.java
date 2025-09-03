@@ -1,5 +1,8 @@
 package oop.ocp;
 
+// extends of Shape and has it own method with formula pi * r^2
+
+
 public class Circle extends Shape{
     private double radius;
 

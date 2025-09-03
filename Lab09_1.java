@@ -12,5 +12,6 @@ public class Lab09_1 {
         System.out.println("Rectangle area: " + calculator.calculateArea(rect));
         System.out.println("Circle area: " + calculator.calculateArea(circle));
         System.out.println("Ellipse area: " + calculator.calculateArea(ellipse));
+
     }
 }

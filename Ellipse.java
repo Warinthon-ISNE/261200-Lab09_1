@@ -1,5 +1,8 @@
 package oop.ocp;
 
+// extends of Shape and has it own method with formula pi * a * b
+
+
 public class Ellipse extends Shape{
     private double majorAxis, minorAxis;
 
@@ -23,7 +26,7 @@ public class Ellipse extends Shape{
     }
 
     @Override
-    public double calculateArea() {
+    public double calculateArea() { // Find area of Ellipse
         return Math.PI * this.majorAxis * this.minorAxis;
     }
 }
